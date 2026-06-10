@@ -19,6 +19,38 @@ The Windows endpoint and Wazuh server were connected through a private virtual n
 An additional **Metasploitable** virtual machine was prepared for future vulnerability assessment and attack simulation activities; however, it was not used in the detection scenarios documented in this project.
 
 ## Technologies Used
+### Virtualization
+
+* Oracle VirtualBox
+
+### Operating Systems
+
+* Windows 11
+* Ubuntu Server
+* Kali Linux
+* Metasploitable (prepared for future testing)
+
+### Security Monitoring
+
+* Wazuh
+* Sysmon
+
+### Threat Hunting & Analysis
+
+* Wazuh Dashboard
+* MITRE ATT&CK Framework
+
+### Networking & Security Tools
+
+* Nmap
+* Windows Event Viewer
+* PowerShell
+* Command Prompt
+
+### Documentation
+
+* GitHub
+* Draw.io
 
 ## Dashboard Overview
 
