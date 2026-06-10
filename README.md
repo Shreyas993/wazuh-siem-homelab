@@ -67,6 +67,18 @@ The dashboard provided visibility into:
 The screenshots included in this repository demonstrate the operational dashboard views used during alert monitoring and investigation activities.
 
 ## MITRE ATT&CK Mapping
+The Wazuh platform was used to correlate security events with the MITRE ATT&CK framework, providing additional context for detection and investigation activities. During testing, multiple attack simulations generated alerts that were automatically mapped to ATT&CK tactics and techniques.
+
+Examples of mapped detections included:
+
+| Technique ID | Technique               | Tactic              |
+| ------------ | ----------------------- | ------------------- |
+| T1087        | Account Discovery       | Discovery           |
+| T1098        | Account Manipulation    | Persistence         |
+| T1105        | Ingress Tool Transfer   | Command and Control |
+| T1562.001    | Disable or Modify Tools | Defense Evasion     |
+
+The ATT&CK framework provided a structured method for understanding attacker behaviour and validating that security events were being properly classified within the SIEM environment.
 
 ## Detection Scenarios
 
