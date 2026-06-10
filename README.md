@@ -153,6 +153,16 @@ Key lessons learned included:
 
 The project also improved skills in Windows event analysis, SIEM administration, threat hunting, and security investigation workflows.
 
+## Additional Documentation
+
+For detailed project documentation, see:
+
+* [Lab Setup](Documentation/Lab_Setup.md)
+* [Detection Scenarios](Documentation/Detection_Scenarios.md)
+* [Threat Hunting Activities](Documentation/Threat_Hunting.md)
+* [Lessons Learned](Documentation/Lessons_Learned.md)
+
+
 ## Future Improvements
 Future improvements for this homelab include:
 
