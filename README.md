@@ -1,4 +1,5 @@
 # Wazuh SIEM Homelab
+![MITRE ATT&CK Framework Mapping](Screenshots/05_MITRE_ATTACK_Framework_Mapping.png)
 
 ## Overview
 This project demonstrates the implementation of a Security Information and Event Management (SIEM) homelab using Wazuh, Sysmon, Windows 11, and Kali Linux. The objective was to simulate common attacker techniques, collect endpoint telemetry, generate security alerts, and perform threat hunting using MITRE ATT&CK mapped detections.
