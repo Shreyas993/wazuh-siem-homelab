@@ -1,2 +1,21 @@
-# wazuh-siem-homelab
-A Wazuh-based SIEM homelab built using Windows 11, Sysmon, Kali Linux and MITRE ATT&amp;CK mapped detections for threat hunting and security monitoring.
+# Wazuh SIEM Homelab
+
+## Overview
+
+## Lab Environment
+
+## Technologies Used
+
+## Dashboard Overview
+
+## MITRE ATT&CK Mapping
+
+## Detection Scenarios
+
+## Threat Hunting Activities
+
+## Challenges Encountered
+
+## Lessons Learned
+
+## Future Improvements
