@@ -53,6 +53,18 @@ An additional **Metasploitable** virtual machine was prepared for future vulnera
 * Draw.io
 
 ## Dashboard Overview
+The Wazuh Dashboard served as the central interface for monitoring, alert analysis, and threat hunting activities throughout the project. Security events collected from the Windows 11 endpoint were forwarded to the Wazuh server, where they were indexed, correlated, and visualized.
+
+The dashboard provided visibility into:
+
+* Endpoint status and agent health
+* Security event trends
+* Alert severity distribution
+* MITRE ATT&CK mapped detections
+* Threat hunting investigations
+* Security event analysis and validation
+
+The screenshots included in this repository demonstrate the operational dashboard views used during alert monitoring and investigation activities.
 
 ## MITRE ATT&CK Mapping
 
