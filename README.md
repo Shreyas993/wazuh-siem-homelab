@@ -66,7 +66,7 @@ The dashboard provided visibility into:
 * Security event analysis and validation
 
 The screenshots included in this repository demonstrate the operational dashboard views used during alert monitoring and investigation activities.
-![Wazuh Dashboard Overview](Screenshots/Wazuh_Dashboard_Overview.png)
+![Wazuh Dashboard Overview](Screenshots/01_Wazuh_Dashboard_Overview.png)
 
 ## MITRE ATT&CK Mapping
 The Wazuh platform was used to correlate security events with the MITRE ATT&CK framework, providing additional context for detection and investigation activities. During testing, multiple attack simulations generated alerts that were automatically mapped to ATT&CK tactics and techniques.
