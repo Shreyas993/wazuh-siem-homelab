@@ -137,5 +137,17 @@ During the development of the homelab, several technical challenges were encount
 Resolving these issues provided valuable experience in SIEM troubleshooting, log analysis, and security monitoring operations.
 
 ## Lessons Learned
+This project provided practical experience in building and operating a SIEM environment for security monitoring and threat detection.
+
+Key lessons learned included:
+
+* Effective monitoring depends on proper telemetry collection and configuration.
+* Logging does not automatically result in detection; alert rules and correlation are equally important.
+* The MITRE ATT&CK framework provides valuable context for understanding attacker behaviour.
+* False positives must be investigated before conclusions are drawn.
+* Endpoint visibility can be significantly improved through Sysmon configuration and log enrichment.
+* Threat hunting is an essential activity for validating detections and understanding security events.
+
+The project also improved skills in Windows event analysis, SIEM administration, threat hunting, and security investigation workflows.
 
 ## Future Improvements
