@@ -126,6 +126,15 @@ Examples of threat hunting activities included:
 These activities helped validate that relevant telemetry was being collected and that alerts could be effectively investigated using the SIEM platform.
 
 ## Challenges Encountered
+During the development of the homelab, several technical challenges were encountered and resolved.
+
+* Sysmon events were initially visible on the Windows endpoint but were not appearing in the Wazuh dashboard.
+* Time synchronization differences between systems made event validation and investigation more difficult.
+* Wazuh agent connectivity issues occasionally caused telemetry collection interruptions.
+* Some attack simulations generated logs without producing corresponding alerts, highlighting the difference between log collection and detection.
+* False positive alerts required additional investigation to determine whether activity was malicious or legitimate.
+
+Resolving these issues provided valuable experience in SIEM troubleshooting, log analysis, and security monitoring operations.
 
 ## Lessons Learned
 
