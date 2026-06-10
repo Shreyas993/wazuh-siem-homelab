@@ -151,3 +151,13 @@ Key lessons learned included:
 The project also improved skills in Windows event analysis, SIEM administration, threat hunting, and security investigation workflows.
 
 ## Future Improvements
+Future improvements for this homelab include:
+
+* Expanding attack simulations using Metasploitable and additional vulnerable systems.
+* Creating custom Wazuh dashboards and visualizations for security monitoring.
+* Integrating additional security tools and log sources.
+* Developing custom detection rules for specific attack techniques.
+* Automating attack simulation and detection validation workflows.
+* Extending threat hunting activities using larger datasets and more advanced attack scenarios.
+
+These enhancements would further improve detection coverage, visibility, and practical SOC analysis capabilities.
