@@ -81,6 +81,35 @@ Examples of mapped detections included:
 The ATT&CK framework provided a structured method for understanding attacker behaviour and validating that security events were being properly classified within the SIEM environment.
 
 ## Detection Scenarios
+The following detection scenarios were executed to validate log collection, alert generation, threat hunting workflows, and MITRE ATT&CK mapping within the homelab environment.
+
+### Scenario 1 – PowerShell Execution Detection
+
+Validated the collection and analysis of PowerShell activity using Sysmon and Wazuh.
+
+### Scenario 2 – Encoded PowerShell Detection
+
+Executed Base64-encoded PowerShell commands to simulate potentially suspicious command execution behaviour.
+
+### Scenario 3 – Local User Creation Detection
+
+Created a local user account and verified that the activity generated relevant Windows Security alerts.
+
+### Scenario 4 – Account Discovery Detection
+
+Performed account enumeration activities using native Windows commands and investigated the resulting detections.
+
+### Scenario 5 – Agent Disconnection Detection
+
+Validated monitoring capabilities by observing alerts generated when the Wazuh agent became unavailable.
+
+### Scenario 6 – False Positive Investigation
+
+Investigated Windows Update-related activity that initially appeared suspicious and validated it as legitimate behaviour.
+
+### Scenario 7 – PowerShell File Download Detection
+
+Simulated a file download using PowerShell and investigated the resulting high-severity alert mapped to MITRE ATT&CK technique T1105.
 
 ## Threat Hunting Activities
 
